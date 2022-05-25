@@ -1,7 +1,6 @@
 package sk.stuba.fei.uim.oop.logic;
 
 import lombok.Getter;
-import sk.stuba.fei.uim.oop.gui.App;
 import sk.stuba.fei.uim.oop.gui.MyCanvas;
 import sk.stuba.fei.uim.oop.gui.MyJButton;
 import sk.stuba.fei.uim.oop.gui.MyJSlider;
