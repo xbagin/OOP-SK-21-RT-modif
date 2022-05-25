@@ -46,7 +46,7 @@ public class EventHandler extends UniversalAdapter {
             this.label.setText(Modes.MOVING.name());
         }
         if (this.commandIs(e, EventHandler.NEXT_COLOR_CMD)) {
-            if(e.getSource() instanceof MyJButton) {
+            if (e.getSource() instanceof MyJButton) {
                 MyJButton button = (MyJButton) e.getSource();
                 if (button.getCanvas() != null) {
                     this.label.setBackground(button.getCanvas().nextColor());

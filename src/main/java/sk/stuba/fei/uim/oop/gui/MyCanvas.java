@@ -28,7 +28,7 @@ public class MyCanvas extends JPanel {
 
     public Tree findMostFrontTree(int x, int y) {
         Tree frontTree = null;
-        for(Tree tree : this.trees) {
+        for (Tree tree : this.trees) {
             if (tree.isInCoordinates(x, y)) {
                 frontTree = tree;
             }
